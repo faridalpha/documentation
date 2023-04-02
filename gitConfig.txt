@@ -8,15 +8,15 @@
 
 		PBM INSTALLATION GITHUB(resolu):
 
-		Vérifiez que JavaScript est activé sur votre navigateur???
+		VÃ©rifiez que JavaScript est activÃ© sur votre navigateur???
 
 			Activer JavaScript dans votre navigateur
 		Ouvrez Chrome sur votre ordinateur.
-		Cliquez sur. Paramètres.
-		Cliquez sur Sécurité et confidentialité.
-		Cliquez sur Paramètres des sites.
+		Cliquez sur. ParamÃ¨tres.
+		Cliquez sur SÃ©curitÃ© et confidentialitÃ©.
+		Cliquez sur ParamÃ¨tres des sites.
 		Cliquez sur JavaScript.
-		Sélectionnez Les sites peuvent utiliser JavaScript.
+		SÃ©lectionnez Les sites peuvent utiliser JavaScript.
 
 
 
@@ -99,7 +99,7 @@ Solution:	.Compte Github: creat token
 			Information d'identification windows
 
 
-NB: …or create a new repository on the command line
+NB: â€¦or create a new repository on the command line
 echo "# documentation" >> README.md
 git init
 git add README.md
@@ -107,10 +107,10 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/faridalpha/documentation.git
 git push -u origin main
-…or push an existing repository from the command line
+â€¦or push an existing repository from the command line
 git remote add origin https://github.com/faridalpha/documentation.git
 git branch -M main
 git push -u origin main
 
-TOKEN:	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
+TOKEN:	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
 USERNAME: faridalpha
