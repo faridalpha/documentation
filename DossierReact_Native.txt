@@ -1,0 +1,16 @@
+Environment for React-Native vs Expo go( Android device for debbug )
+-------------------------------------------------------------------
+
+a-install NodeJs(npm)
+b-install Expo on your Android device( on plateform PlayStore )
+
+c-Command line on terminal windows
+	1- Install -g create-react-native-app
+	2- Create-react-react-native-app MyProjectName
+	3- npx expo start
+	4- Log in your Expo go (Android device )
+	5- Scan QRCODE
+	6- Go on the project folder with TextEditor
+	7- App.js(Project Base: Hello world!)
+
+

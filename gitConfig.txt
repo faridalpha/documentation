@@ -1,0 +1,116 @@
+				
+				Github (Creation Compte)
+				---------------
+
+		email:faridalpha401@gmail.com
+		username:faridalpha
+		pwd:	piconanofemto@401
+
+		PBM INSTALLATION GITHUB(resolu):
+
+		Vérifiez que JavaScript est activé sur votre navigateur???
+
+			Activer JavaScript dans votre navigateur
+		Ouvrez Chrome sur votre ordinateur.
+		Cliquez sur. Paramètres.
+		Cliquez sur Sécurité et confidentialité.
+		Cliquez sur Paramètres des sites.
+		Cliquez sur JavaScript.
+		Sélectionnez Les sites peuvent utiliser JavaScript.
+
+
+
+
+				CONFIG GIT(Etape)(init ...push)
+				..............................
+				..............................
+
+
+1-	C:\Users\FARID\Desktop\siteT>git init
+	hint: Using 'master' as the name for the initial branch. This default branch name
+	hint: is subject to change. To configure the initial branch name to use in all
+	hint: of your new repositories, which will suppress this warning, call:
+	hint:
+	hint:   git config --global init.defaultBranch <name>
+	hint:
+	hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+	hint: 'development'. The just-created branch can be renamed via this command:
+	hint:
+	hint:   git branch -m <name>
+	Initialized empty Git repository in C:/Users/FARID/Desktop/siteT/.git/
+
+
+2-	C:\Users\FARID\Desktop\siteT>git add index.html
+
+
+3-	C:\Users\FARID\Desktop\siteT>git commit -m"Commit voalohany"
+	[master (root-commit) e618851] Commit voalohany
+ 	1 file changed, 10 insertions(+)
+ 	create mode 100644 index.html
+
+
+4-	C:\Users\FARID\Desktop\siteT>git log
+	commit e6188511c34f5bd4161fa498cd98a8332509bc95 (HEAD -> master)
+	Author: faridalpha <faridalpha401@gmail.com>
+	Date:   Sat Apr 1 21:37:29 2023 +0200
+
+    		Commit voalohany
+
+
+
+5-	C:\Users\FARID\Desktop\siteT>git config --global user.name"faridalpha"
+
+6-	C:\Users\FARID\Desktop\siteT>git config --global user.email"faridalpha401@gmail.com"
+
+
+
+7-	C:\Users\FARID\Desktop\siteT>git branch -M main
+
+8-	C:\Users\FARID\Desktop\siteT>git log
+	commit e6188511c34f5bd4161fa498cd98a8332509bc95 (HEAD -> main)
+	Author: faridalpha <faridalpha401@gmail.com>
+	Date:   Sat Apr 1 21:37:29 2023 +0200
+
+    		Commit voalohany
+
+9-	C:\Users\FARID\Desktop\siteT>git remote add origin https://github.com/faridalpha/ApprendreGit.git
+
+10-	C:\Users\FARID\Desktop\siteT>git push -u origin main
+	Username for 'https://github.com': faridalpha
+	Password for 'https://faridalpha@github.com':
+	Enumerating objects: 3, done.
+	Counting objects: 100% (3/3), done.
+	Delta compression using up to 4 threads
+	Compressing objects: 100% (2/2), done.
+	Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+	Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+	To https://github.com/faridalpha/ApprendreGit.git
+ 	* [new branch]      main -> main
+	branch 'main' set up to track 'origin/main'.
+
+11-	C:\Users\FARID\Desktop\siteT>
+
+
+NB:	https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls 
+	Pbm: Authentification au moment de Push depot local vers depot distant(git push -u origin main)
+
+Solution:	.Compte Github: creat token
+		.Windows: Panno conf--Compte utilisateur--Gerer les information d'identification web--
+			Information d'identification windows
+
+
+NB: …or create a new repository on the command line
+echo "# documentation" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/faridalpha/documentation.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/faridalpha/documentation.git
+git branch -M main
+git push -u origin main
+
+TOKEN:	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
+USERNAME: faridalpha
